@@ -15,8 +15,8 @@ jobs:
       - name: Extract project
         run: |
           unzip -o ai-kantor-video-engine-pro-v2.zip
-          cp -a ai-kantor-video-engine-pro-v2/. .
-
+          cp -a ai-kantor-video-engine-fixed/. .
+          
       - name: Install FFmpeg
         run: |
           sudo apt-get update
