@@ -14,7 +14,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -o ai-kantor-video-engine.zip
+          unzip -o ai-kantor-video-engine.zip.zip
           cp -a ai-kantor-video-engine/. .
 
       - name: Install FFmpeg
